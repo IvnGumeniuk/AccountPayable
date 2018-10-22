@@ -52,6 +52,8 @@ https://github.com/IvnGumeniuk/AccountPayable
 		2. Go to GitHub and click Clone or Download. Download ZIP.
 		   After you unzip locate the path in GitHub Desktop.
 
+- Work from the local repo on your PC. When you ready to make changes for others to see open GitHub Desktop and proceed to step (2) .
+
 2. I WANT TO SHOW OTHERS WHAT I HAVE DONE ---> PUSH 
 		    
 - Push basically means modifying a project on your side and make the change happen to origin (central) project too so others can update it.Once you've made any change on your local repo and want to post it - open  GitHub Desktop. It will automatically  see that the local repo on your pc has differences with the origin (located on the GitHub). To be able to change same modifications for group project:
