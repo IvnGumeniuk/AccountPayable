@@ -1,0 +1,13 @@
+1) SSMS: 
+
+- Enable Windows and SQL Server Authentication in properties of the DB. Proceed to security folder --> Logins --> sa (enable) 
+- Make sure you have a proper root path:	
+	  EXAMPLE:
+		- C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\AccountPayable.mdf
+
+		- C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\AccountsPayable.mdf 
+
+2) Visual Studio connection: 
+	- Add connection in Server Expoler;
+	- Add connection string in the code:
+			https://www.codeproject.com/Articles/823854/How-to-connect-SQL-Database-to-your-Csharp-program 

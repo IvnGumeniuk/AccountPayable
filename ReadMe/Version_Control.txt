@@ -1,0 +1,84 @@
+===============================================================================
+----------------------------------TERMINOLOGY----------------------------------
+===============================================================================
+GIT - version control system.
+
+GITHUB - web-based service for version control
+using Git.
+
+GITHUB DESKTOP - software-based service for 
+version control using Git. 
+
+COMMIT - the action that saves instance of the project after change. Git keeps 
+track of every commit. 
+
+REPOSITORY / REPO - repository is a directory which contains your project work.
+
+WORKING DIRECTORY - The Working Directory is the files that you see in your 
+computer's file system with Github Desktop.
+
+CHECKOUT - A checkout is when content in the repository has been copied to the
+Working Directory.
+
+BRANCH -A branch is when a new line of development is created that diverges
+from the main line of development. This alternative line of development can 
+continue without altering the main line.
+Going back to the example of save point in a game, you can think of a branch as
+where you make a save point in your game and then decide to try out a risky move 
+in the game. 
+(FOR NOW ONE BRANCH - MASTER IS ENOUGH FOR USAGE) 
+
+
+ORIGIN - original repository located at the hosting service. In our case:
+https://github.com/IvnGumeniuk/AccountPayable
+
+===============================================================================
+-----------------------------------MANUAL--------------------------------------
+===============================================================================
+
+1. INITIALISE
+
+- For better version control management experience download GitHub Desktop:
+
+	https://desktop.github.com
+
+- Once you install it and open proceed to:
+	 File-->Clone Repository--> (1)Enter the link || (2) Choose path
+
+		1. Visit https://github.com/IvnGumeniuk/AccountPayable 
+		   and click GREEN BUTTON Clone or Download. Copy the link.
+		   Paste in the GitHub Desktop Clone Repository form.
+
+		2. Go to GitHub and click Clone or Download. Download ZIP.
+		   After you unzip locate the path in GitHub Desktop.
+
+2. I WANT TO SHOW OTHERS WHAT I HAVE DONE ---> PUSH 
+		    
+- Push basically means modifying a project on your side and make the change happen to origin (central) project too so others can update it.Once you've made any change on your local repo and want to post it - open  GitHub Desktop. It will automatically  see that the local repo on your pc has differences with the origin (located on the GitHub). To be able to change same modifications for group project:
+	- Click on blue button Commit below left.Summary is obligatory. Leave a            comment if you wish. 
+	- Click on Push Origin at the top middle.
+	- Fetch Origin button is to update the local repo with the origin.
+3. I WANT TO SEE WHAT OTHERS HAVE DONE THIS TIME --> PULL
+
+- Let's assume user (A) added/pushed a file to origin repo (on Github website). User (B) would like to have same changes in project on his local repo to be on same page with user (A). User (A) opens GitHub Desktop and again it sees the differnces between local repo and origin repo. 
+	- At the top toolbar choose Repository --> Pull.	 
+	- OR click Fetch Origin top middle --> Then Click Pull Origin.
+
+4. OTHER INFO YOU DESERVE TO KNOW
+
+   - At the top left you will see too tabs:
+		- Changes - by default;
+		- History;
+     Click on the History tab to see all the tracked commits made on our project;
+
+   - .git folder contains all the commits details;
+===============================================================================
+-----------------------------------OTHER TOOLS---------------------------------
+===============================================================================
+VISUAL STUDIO + GIT 
+
+If you would like to commit any chnages directly using the code editor VS2017
+please follow the link bellow for more information:
+
+https://docs.microsoft.com/en-us/azure/devops/repos/git/gitquickstart?view=vsts&tabs=visual-studio
+===============================================================================
