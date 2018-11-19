@@ -2,8 +2,8 @@
 Account Payable project is a component of a major Accounting software.
 
 This Repo consists of: 
- - Visual Studio 2017 project (current == AccountPayable2); 
- - Database SQL 2017 (current ==  Database/Haris_DB_AccountPayable 2.0.sql);
+ - Visual Studio 2017 project (current == AccountPayable_beta); 
+ - Database SQL 2017 (current ==  Database/Database19.11.2018.sql);
  - Manuals (folder --> Readme):
                    - Version_Control.txt (All the necessary info about Git,GitHub,GitHub Desktop etc.);
                    - Project Management.txt (Info about the Git project management flow);
